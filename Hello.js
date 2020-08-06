@@ -74,18 +74,57 @@ export default ({ name }) => {
   <Badge variant="dark" className="m-2">Dark</Badge>
 </div>
 
-      <div className="p-3"> 
-        <Button  className=" mr-4 " variant="success" onClick={testButton} > Regular Button</Button> 
-
-        <Button  size="lg" className=" mr-4" variant="success"  >Large Button</Button> 
+ <div className="p-3">
+ <h5>As Links </h5>
+                <a href="#" class="badge badge-primary mr-2">Primary</a>
+                <a href="#" class="badge badge-success mr-2">Success</a>
+                <a href="#" class="badge badge-danger mr-2">Danger</a>
+                <a href="#" class="badge badge-warning mr-2">Warning</a>
+                <a href="#" class="badge badge-info mr-2">Info</a>
+                <a href="#" class="badge badge-dark mr-2">Dark</a>
+                <a href="#" class="badge badge-secondary mr-2">Secondary</a>
+                <a href="#" class="badge badge-light mr-2">Light</a>
+                <a href="#" class="badge badge-white mr-2">White</a>
 </div>
 
-    <div className="p-3"> 
-           <Button size="sm" className=" mt-4 " variant="link">Regular Link</Button>
+<div className="p-3">
+ <h5>Badges </h5>
+ <Badge variant="primary" pill className="m-2">Primary</Badge>{' '}
+  <Badge variant="secondary" pill className="m-2">Secondary</Badge>{' '}
+  <Badge variant="success" pill className="m-2">Success</Badge>{' '}
+  <Badge variant="warning" pill className="m-2">Warning</Badge>{' '}
+  <Badge variant="danger" pill className="m-2">Danger</Badge>{' '}
+  <Badge variant="info"  pill className="m-2">Info</Badge>{' '}
+  <Badge variant="light" pill className="m-2">Light</Badge>{' '}
+  <Badge variant="dark" pill className="m-2">Dark</Badge>
+</div>
 
 
-           <Button  className=" mt-4 " variant="link">Small  Link</Button>
-       </div>
+ <div className="p-3">
+                <h5>As links</h5>
+                <a href="#" class="badge badge-pill badge-primary mr-2">Primary</a>
+                <a href="#" class="badge badge-pill badge-success mr-2">Success</a>
+                <a href="#" class="badge badge-pill badge-danger mr-2">Danger</a>
+                <a href="#" class="badge badge-pill badge-warning mr-2">Warning</a>
+                <a href="#" class="badge badge-pill badge-info mr-2">Info</a>
+                <a href="#" class="badge badge-pill badge-dark mr-2">Dark</a>
+                <a href="#" class="badge badge-pill badge-secondary mr-2">Secondary</a>
+                <a href="#" class="badge badge-pill badge-light mr-2">Light</a>
+                <a href="#" class="badge badge-pill badge-white mr-2">White</a>
+              </div>
+
+    
+
+   <div className="p-3"> 
+              <h2 class="h5">Sizes</h2>
+              <Button variant = "primary" size="lg" className="mr-2">Large</Button>
+              <Button variant = "primary" className="mr-2">Default</Button>
+              <Button variant = "primary" size="sm" className="mr-2">Small</Button>
+              <Button variant = "primary" size="xs" className="mr-2">Extra Small</Button>
+    </div>
+   
+          
+       
 </>
   )
 }
