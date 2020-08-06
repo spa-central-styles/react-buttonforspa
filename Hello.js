@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Button from 'react-bootstrap/Button'
 import Badge from 'react-bootstrap/Badge'
 
@@ -7,7 +7,8 @@ export default ({ name }) => {
       e.preventDefault();
     alert('here');
   }
-   
+    const [isDisabled, setIsDisabled] = useState(true);
+
   return (
     <>
 <h3> Buttons, Badges and Pills </h3>
@@ -26,7 +27,7 @@ export default ({ name }) => {
 </div>
 
 <div className="p-3">
-  <Button variant="primary" className="m-2" disabled="true">Primary</Button>{' '}
+  <Button variant="primary" className="m-2" disabled={isDisabled}>Primary</Button>{''}
   <Button variant="success" className="m-2" disabled>Success</Button>{' '}
   <Button variant="danger" className="m-2" disabled>Danger</Button>
   <Button variant="warning" className="m-2" disabled>Warning</Button>{' '}
