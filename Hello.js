@@ -88,7 +88,7 @@ export default ({ name }) => {
 </div>
 
 <div className="p-3">
- <h5>Badges </h5>
+ <h5>Pills </h5>
  <Badge variant="primary" pill className="m-2">Primary</Badge>{' '}
   <Badge variant="secondary" pill className="m-2">Secondary</Badge>{' '}
   <Badge variant="success" pill className="m-2">Success</Badge>{' '}
